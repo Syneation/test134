@@ -1,0 +1,27 @@
+/* 1 - text */
+/* 2 - img */
+
+/* 1 - text */
+.text {
+    position: fixed;
+}
+.text h1 {
+    margin-left: 1350px;
+    margin-top: 220px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.text p {
+    margin-left: 1350px;
+    margin-top: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.text button {
+    margin-left: 1350px;
+    margin-top: 30px;
+}
+
+/* 2 - img */
+.img1 {
+    margin-left: 30px;
+    margin-top: 60px;
+}
