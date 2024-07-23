@@ -117,25 +117,13 @@ header {
     width: 3.2%;
 }
 
-/* 1.1 - img */
-.img2 {
-    
-}
-.img3 {
-
-}
-.img4 {
-
-}
-
 /* 2 - header */
 /* head */
 .slide {    
-    text-align: left;
     padding-right: 10px;
     margin-left: 350px; 
     padding-top: 100px; 
-     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
     font-weight: 450;
     font-size: 80px; 
     /* for chrome and safari*/
@@ -163,7 +151,7 @@ header {
     }
 
     to {
-        margin-left: 0%;
+        margin-left: 18%;
         width: 100%;
     }
 }
@@ -175,7 +163,7 @@ header {
     }
 
     to {
-        margin-left: 0%;
+        margin-left: 18%;
         width: 100%;
     }
 }
@@ -186,7 +174,7 @@ header {
     }
 
     to {
-        margin-left: 0%;
+        margin-left: 18%;
         width: 100%;
     }
 }
@@ -197,7 +185,7 @@ header {
     }
 
     to {
-        margin-left: 0%;
+        margin-left: 18%;
         width: 100%;
     }
 }
@@ -770,7 +758,7 @@ p.zak-head:hover {
       letter-spacing: 2px;
       letter-spacing: 2px ;
     }
-  }
+}
   .onclic {
     width: 40px;
     border-color:gray;
@@ -836,12 +824,7 @@ p.zak-head:hover {
     width: auto;
     margin: 10px;
 }
-@media (min-width: 576px) {
-  .modal-dialog {
-      max-width: 500px;
-      margin: 30px auto; /* отображение окна по центру */
-  }
-}
+
 /* Стили для блока с контентом окна */ 
 .modal-content {
     position: relative;
@@ -861,12 +844,7 @@ p.zak-head:hover {
     border-radius: .3rem;
     outline: 0;
 }
-@media (min-width: 768px) {
-  .modal-content {
-      -webkit-box-shadow: 0 5px 15px rgba(0,0,0,.5);
-      box-shadow: 0 5px 15px rgba(0,0,0,.5);
-  }
-}
+
 /* Стили заголовка окна */
 .modal-header {
     display: -webkit-box;
@@ -1219,6 +1197,50 @@ p.zak-head:hover {
     .container2 button {
         margin-left: -780px;
     }
+    @-webkit-keyframes slidein {
+        from {
+            margin-left: 100%;
+            width: 300%;
+        }
+    
+        to {
+            margin-left: 0%;
+            width: 100%;
+        }
+    }
+    
+    @-moz-keyframes slidein {
+        from {
+            margin-left: 100%;
+            width: 300%;
+        }
+    
+        to {
+            margin-left: 0%;
+            width: 100%;
+        }
+    }
+     @-o-keyframes slidein {
+        from {
+            margin-left: 100%;
+            width: 300%;
+        }
+    
+        to {
+            margin-left: 0%;
+            width: 100%;
+        }
+    }
+      @keyframes slidein {
+        from {
+            margin-left: 100%;
+            width: 300%;
+        }
+    
+        to {
+            margin-left: 0%;
+            width: 100%;
+        }
    
  }
 
@@ -1360,24 +1382,78 @@ p.zak-head:hover {
         margin-top: 50px;
     }
     .con {
-        margin-left: -600px;
+        margin-left: -400px;
         margin-top: 220px;
     }
-    .check1 {
-        margin-left: -160px;
-        margin-bottom: 20px;
+    
+    .check1 input{
+        width: 40px;
+        margin-left: -410px;
+        margin-top: 40px;
+    }
+    .check1 p{
+        margin-bottom: 10px;
+    }
+    .container2 button{
+        margin-left: -400px;
     }
     .group p {
         margin-top: 50px;
         margin-left: -160px;
         margin-top: 30px;
     }
-    .group { 
+    .group input{ 
         position:relative; 
-        margin-bottom:5px; 
+        margin-top:-10px; 
       }
       button {
         width: 100%;
+      }
+
+      @-webkit-keyframes slidein {
+        from {
+            margin-left: 100%;
+            width: 300%;
+        }
+    
+        to {
+            margin-left: 0%;
+            width: 100%;
+        }
+    }
+    
+    @-moz-keyframes slidein {
+        from {
+            margin-left: 100%;
+            width: 300%;
+        }
+    
+        to {
+            margin-left: 0%;
+            width: 100%;
+        }
+    }
+     @-o-keyframes slidein {
+        from {
+            margin-left: 100%;
+            width: 300%;
+        }
+    
+        to {
+            margin-left: 0%;
+            width: 100%;
+        }
+    }
+      @keyframes slidein {
+        from {
+            margin-left: 100%;
+            width: 300%;
+        }
+    
+        to {
+            margin-left: 0%;
+            width: 100%;
+        }
       }
     /* pop-up mobile */
     .pop_up {
@@ -1456,7 +1532,6 @@ p.zak-head:hover {
 
     @media (max-width: 375px){
         .img-head {
-            
             width: 8%;
         }
         .head-anim {
@@ -1609,8 +1684,10 @@ p.zak-head:hover {
             margin-left: -800px;
             margin-top: 220px;
         }
-        .check1 {
-            margin-bottom: 20px;
+        .check1 input{
+            width: 20px;
+            margin-left: -350px;
+            margin-top: 50px;
         }
         .group p {
             margin-top: 50px;
@@ -1625,7 +1702,7 @@ p.zak-head:hover {
             width: 100%;
           }
         .container2 {
-            margin-left: 50px;
+            margin-left: 400px;
         }
         /* pop-up mobile */
         .pop_up {
@@ -1702,8 +1779,52 @@ p.zak-head:hover {
             cursor: pointer;
         }
     }
-
-    @media (max-width: 375px){
+    @media (max-width: 320px){
+        @-webkit-keyframes slidein {
+            from {
+                margin-left: 100%;
+                width: 300%;
+            }
+        
+            to {
+                margin-left: 0%;
+                width: 100%;
+            }
+        }
+        
+        @-moz-keyframes slidein {
+            from {
+                margin-left: 100%;
+                width: 300%;
+            }
+        
+            to {
+                margin-left: 0%;
+                width: 100%;
+            }
+        }
+         @-o-keyframes slidein {
+            from {
+                margin-left: 100%;
+                width: 300%;
+            }
+        
+            to {
+                margin-left: 0%;
+                width: 100%;
+            }
+        }
+          @keyframes slidein {
+            from {
+                margin-left: 100%;
+                width: 300%;
+            }
+        
+            to {
+                margin-left: 0%;
+                width: 100%;
+            }
+          }
         .img-head {
             width: 8%;
         }
@@ -1862,29 +1983,30 @@ p.zak-head:hover {
             margin-top: 50px;
         }
         .con {
-            margin-left: -800px;
+            margin-left: -400px;
             margin-top: 220px;
         }
         .check {
             margin-left: -25px;
         }
         .check1 {
-            margin-left: -100px;
+            margin-left: -300px;
+            margin-top: 20px;
         }
         .group p {
             margin-top: 50px;
             margin-left: -160px;
             margin-top: 30px;
         }
-        .group { 
+        .group input{ 
             position:relative; 
-            margin-bottom:5px; 
+            margin-top:-10px;
           }
           button {
             width: 100%;
           }
         .container2 {
-            margin-left: 50px;
+            margin-left: 10px;
         }
         /* pop-up mobile */
         .pop_up {
@@ -1961,4 +2083,5 @@ p.zak-head:hover {
             cursor: pointer;
         }
     }
+ }
  }

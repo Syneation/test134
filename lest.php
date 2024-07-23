@@ -81,10 +81,10 @@
                 <button>Заказать</button>
             </form>
         </div>
-        <div class="img1" >
-            <img src="png/disain4.png" data-enlargeable style="cursor: zoom-in" alt="disain1" width="1100px">
-            <img src="png/disain4(1).png" data-enlargeable style="cursor: zoom-in" alt="disain2" width="1100px">
-            <img src="png/disain4(2).png" data-enlargeable style="cursor: zoom-in" alt="disain3" width="1100px">
+        <div class="img1">
+            <a href="png/disain4.png"><img src="png/disain4.png" alt="disain1" width="1100px"></a>
+            <a href="png/disain4(1).png"><img src="png/disain4(1).png" alt="disain2" width="1100px"></a>
+            <a href="png/disain4(2).png"><img src="png/disain4(2).png" alt="disain3" width="1100px"></a>
         </div>
 
 
