@@ -985,7 +985,7 @@ p.zak-head:hover {
         margin-left: 500px;
     }
     .usl2 {
-        margin-left: 200px;
+        margin-left: 100px;
     }
 
     .image img{
@@ -997,7 +997,9 @@ p.zak-head:hover {
         margin-left: 250px;
     }
  }
- @media (max-width: 1360px){
+
+
+ @media (max-width: 1500px){
     .head4 {
         margin-right: 30px;
     }
@@ -1008,10 +1010,10 @@ p.zak-head:hover {
         margin-left: 100px;
     }
     .slide {
-        margin-left: 130px;
+        margin-left: 90px;
     }
     .down-head {
-        margin-left: 230px;
+        margin-left: 150px;
     }
     .img2 img{
         width: 70%;
@@ -1044,7 +1046,7 @@ p.zak-head:hover {
     }
  }
 
- @media (max-width: 1024px){
+ @media (max-width: 1487px){
     .head1 {
         margin-left: 70px;
     }
@@ -1055,10 +1057,10 @@ p.zak-head:hover {
         margin-right: 80px;
     }
     .slide {
-        margin-left: 150px;
+        margin-left: 20px;
     }
     .down-head {
-        margin-left: 280px;
+        margin-left: 20px;
     }
     .end1 a {
         margin-left: 40px;
@@ -1071,7 +1073,7 @@ p.zak-head:hover {
         margin-left: 500px;
     }
     .img6 img {
-        width:350%;
+        width:150%;
     }
     .img8 img {
         margin-left: 450px;
@@ -1090,11 +1092,12 @@ p.zak-head:hover {
         margin-left: 1px;
     }
     .usl2 {
-        margin-left: 300px;
+        margin-left: -160px;
     }
  }
 
- @media (max-width: 768px){
+
+ @media (max-width: 971px){
     .head1 {
         margin-left: 10px;
         margin-right: 10px;
@@ -1109,10 +1112,11 @@ p.zak-head:hover {
         margin-right: 10px;
     }
     .slide {
+        font-size: 50px;
         margin-left: 10px;
     }
     .down-head {
-        margin-left: 10px;
+        margin-left: -10px;
     }
     .img2 img{
         width: 100%;
@@ -1125,11 +1129,11 @@ p.zak-head:hover {
         width: 280%;
     }
     .img4 img {
-        margin-left: 200px;
+        margin-left: 230px;
         width: 70%;
     }
     .img4 h5 {
-        margin-left: 200px;
+        margin-left: 300px;
     }
     .img5 img {
         margin-left: 400px;
@@ -1159,12 +1163,9 @@ p.zak-head:hover {
     .usl1 p {
         margin-left: -450px;
     }
-    .usl2 h1{
+    .usl2 {
         margin-left: -660px;
         margin-top: 200px;
-    }
-    .usl2 p {
-        margin-left: -660px;
     }
     .container2 {
         margin-top: 100px;
@@ -1270,12 +1271,16 @@ p.zak-head:hover {
         font-size: 26px;
     }
 
+    .img1 img {
+        width: 90%;
+    }
+
     .img2 img{
-        width: 200%;
-        margin-left: 150px;
+        width: 300%;
+        margin-left: 20px;
     }
     .img2 h5{
-        margin-left: 150px;
+        margin-left: 20px;
     }
 
     .img3 img {
@@ -1290,11 +1295,11 @@ p.zak-head:hover {
     }
 
     .img5 img {
-        margin-left:130px;
-        width: 130%;
+        margin-left:10px;
+        width: 170%;
     }
     .img5 h5 {
-        margin-left: 130px;
+        margin-left: 10px;
     }
 
     .img6 img {
@@ -1309,14 +1314,14 @@ p.zak-head:hover {
         
     }
     .img8 img {
-        margin-left: 80px;
-        width: 130%;
+        margin-left: 10px;
+        width: 170%;
     }
     .img8 h5 {
-        margin-left: 80px;
+        margin-left: 10px;
     }
     .img9 img {
-        width: 70%;
+        width: 100%;
     }
 
     .uslugi h1 {
@@ -1681,7 +1686,7 @@ p.zak-head:hover {
             margin-top: 50px;
         }
         .con {
-            margin-left: -800px;
+            margin-left: -500px;
             margin-top: 220px;
         }
         .check1 input{
@@ -1702,7 +1707,7 @@ p.zak-head:hover {
             width: 100%;
           }
         .container2 {
-            margin-left: 400px;
+            margin-left: 100px;
         }
         /* pop-up mobile */
         .pop_up {
@@ -2085,3 +2090,4 @@ p.zak-head:hover {
     }
  }
  }
+
