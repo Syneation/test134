@@ -277,6 +277,21 @@
     }
 }
 
+@media (max-width: 370px) {
+    .text h1 {
+        margin-top: 200px;
+    }
+    .img1 img {
+        margin-top: 160px;
+    }
+    .img2 img {
+        margin-top: 330px;
+    }
+    .img3 img {
+        margin-top: 500px;
+    }
+}
+
 @media (max-width: 321px){
     .text h1 {
         margin-left: 230px;

@@ -1096,6 +1096,102 @@ p.zak-head:hover {
     }
  }
 
+@media(max-width: 1375px) {
+    .mail {
+        margin-left: -300px;
+    }
+    .con {
+        margin-left: -10px;
+        margin-top: 100px;
+    }
+} 
+
+@media (max-width: 1223px) {
+    .con {
+        margin-left: -100px;
+    }
+    .usl1 {
+        margin-left: 200px;
+        margin-right: 100px;
+    }
+    .usl2 {
+        margin-left: -10px;
+    }
+}
+
+@media (max-width: 1209px) {
+    .slide {
+        margin-left: 10px;
+    }
+    .down-head {
+        margin-left: -10px;
+    }
+    .image {
+        margin-left: 400px;
+    }
+    .aboutp3 {
+        margin-left: 400px;
+    }
+    .aboutp5 {
+        margin-left: 400px;
+    }
+    .abouth {
+        margin-left: 400px;
+    }
+    .aboutp1 {
+        margin-left: 400px;
+    }
+}
+
+@media (max-width: 1191px) {
+    .slide {
+        margin-left: 1px;
+        font-size: 40px;
+    }
+    .down-head {
+        margin-left: -20px;
+    }
+    .img6 img{
+        width: 200%;
+    }
+}
+
+@media(max-width: 1075px) {
+    .mail {
+        margin-left: -700px;
+    }
+    .end0 {
+        margin-left: -400px;
+    }
+    .con {
+        margin-left: -300px;
+    }
+    .img6 img {
+        width: 300%;
+    }
+    .uslugi {
+        margin-left: -90px;
+    }
+}
+
+@media (max-width: 1029px) {
+    .container2 button {
+        margin-left: -100px;
+        margin-top: 50px;
+    }
+    .mail {
+        margin-left: -800px;
+    }
+    .check1 p {
+        margin-left: -10px;
+    }
+    .img5 img {
+        margin-left: 400px;
+    }
+    .img5 h5 {
+        margin-left: 400px;
+    }
+}
 
  @media (max-width: 971px){
     .head1 {
@@ -1245,7 +1341,52 @@ p.zak-head:hover {
    
  }
 
- @media (max-width: 425px){
+ @media (max-width: 961px) {
+    .img4 img {
+        margin-left: 300px;
+    }
+    .img3 img {
+        width: 300%;
+    }
+    .usl1 h1{
+        margin-left: 200px;
+    }
+    .usl1 p {
+        margin-left: 200px;
+    }
+    .container2 button {
+        margin-bottom: 100px;
+    }
+ }
+
+ @media (max-width: 889px) {
+    .usl2 h1 {
+        margin-top: 100px;
+    }
+    .img7 img {
+        width: 100%;
+        margin-left: 350px;
+    }
+    .img7 h5 {
+        margin-left: 350px;
+    }
+    .check1 input {
+        margin-left: -100px;
+    }
+    
+ }
+
+@media (max-width: 734px) {
+    .edn0 {
+        margin-top: 200px;
+    }
+    .end1 {
+        margin-left: -100px;
+        margin-top: 100px;
+    }
+}
+
+ @media (max-width: 635px){
     .head-anim {
         right: 0;
     }
@@ -1329,18 +1470,20 @@ p.zak-head:hover {
         font-size: 45px;
     }
     .usl1  h1{
-        margin-left: -460px;
+        margin-left: -90px;
     }
     .usl1 p {
-        margin-left: -460px;
+        margin-left: -90px;
     }
     .usl2 h1{
-        margin-left: -960px;
+        margin-left: 200px;
         margin-top: 200px;
     }
     .usl2 p {
-        margin-left: -960px;
-
+        margin-left: 200px;
+    }
+    .uslugi {
+        margin-left: 10px;
     }
 
     .abouth {
@@ -1535,6 +1678,26 @@ p.zak-head:hover {
         cursor: pointer;
     }
 
+    @media (max-width: 425px) {
+        .uslugi {
+            margin-left: 10px;
+        }
+        .img7 img {
+            width: 200%;
+        }
+        .usl1 h1 {
+            margin-left: -150px;
+        }
+        .usl1 p {
+            margin-left: -150px;
+        }
+        .usl2 h1 {
+            margin-left: 300px;
+        }
+        .usl2 p {
+            margin-left: 300px;
+        }
+    }
     @media (max-width: 375px){
         .img-head {
             width: 8%;
@@ -1701,7 +1864,7 @@ p.zak-head:hover {
         }
         .group { 
             position:relative; 
-            margin-bottom:5px; 
+            
           }
           button {
             width: 100%;
@@ -1782,6 +1945,23 @@ p.zak-head:hover {
             right: 15px;
             font-size: 21px;
             cursor: pointer;
+        }
+    }
+    @media (max-width: 373px) {
+        .usl1 h1{
+            margin-left: -150px;
+        }
+        .usl1 p {
+            margin-left: -150px;
+        }
+        .usl2 h1{
+            margin-left: 320px;
+        }
+        .usl2 p {
+            margin-left: 320px;
+        }
+        .container2 button {
+            margin-top: -10px;
         }
     }
     @media (max-width: 320px){
@@ -1926,18 +2106,18 @@ p.zak-head:hover {
             font-size: 35px;
         }
         .usl1  h1{
-            margin-left: -460px;
+            margin-left: -160px;
         }
         .usl1 p {
-            margin-left: -460px;
+            margin-left: -160px;
             font-size: 15px;
         }
         .usl2 h1{
-            margin-left: -960px;
+            margin-left: 360px;
             margin-top: 200px;
         }
         .usl2 p {
-            margin-left: -960px;
+            margin-left: 360px;
             font-size: 13px;
         }
     
