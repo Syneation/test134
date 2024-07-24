@@ -1677,7 +1677,19 @@ p.zak-head:hover {
         font-size: 21px;
         cursor: pointer;
     }
-
+    @media (max-width: 630px) {
+        .img2 img {
+            width: 200%;
+        }
+        .img7 img {
+            width: 150%;
+        }
+    }
+    @media (max-width: 442px) {
+        .img2 img {
+            width: 300%;
+        }
+    }
     @media (max-width: 425px) {
         .uslugi {
             margin-left: 10px;
@@ -1749,7 +1761,7 @@ p.zak-head:hover {
             font-size: 20px;
         }
         .img1 img {
-            width: 100%;
+            width: 90%;
         }
         .img2 img{
             width: 500%;
@@ -2009,6 +2021,11 @@ p.zak-head:hover {
             width: 300%;
         }
     }
+    @media (max-width: 358px) {
+        .img2 img {
+            width: 550%;
+        }
+    }
     @media (max-width: 350px) {
         .slide {
             margin-left: 10px;
@@ -2061,6 +2078,14 @@ p.zak-head:hover {
         }
         .img7 img {
             width: 400%;
+        }
+    }
+    @media (max-width: 329px) {
+        .img2 img {
+            width: 990%;
+        }
+        .img7 img {
+            width: 350%;
         }
     }
     @media (max-width: 320px){
@@ -2368,5 +2393,22 @@ p.zak-head:hover {
         }
     }
  }
+ }
+ @media (max-width: 313px) {
+    .slide {
+        font-size: 15px;
+    }
+    .img1 img {
+        width: 90%;
+    }
+    .img2 img {
+        width: 2350%;
+    }
+    .img5 img {
+        width: 300%;
+    }
+    .img8 img {
+        width: 180%;
+    }
  }
 
