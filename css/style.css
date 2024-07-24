@@ -1698,6 +1698,28 @@ p.zak-head:hover {
             margin-left: 300px;
         }
     }
+    @media (max-width: 396px) {
+        .slide {
+            font-size: 20px;
+        }
+        .img2 img {
+            width: 400%;
+        }
+        .img4 img {
+            width: 50%;
+        }
+        .img5 img {
+            width: 200%;
+        }
+        .img7 img{
+            width: 240%;
+        }
+    }
+    @media (max-width: 370px) {
+        .img7 img {
+            width: 200%;
+        }
+    }
     @media (max-width: 375px){
         .img-head {
             width: 8%;
@@ -1962,6 +1984,80 @@ p.zak-head:hover {
         }
         .container2 button {
             margin-top: -10px;
+        }
+    }
+    @media (max-width: 360px) {
+        .down-head {
+            margin-left: -15px;
+        }
+        .img1 img {
+            width: 90%;
+        }
+        .img2 img {
+            width: 800%;
+        }
+        .img4 img {
+            width: 40%;
+        }
+        .img4 h5 {
+            font-size: 12px;
+        }
+        .img5 img {
+            width: 250%;
+        }
+        .img7 img {
+            width: 300%;
+        }
+    }
+    @media (max-width: 350px) {
+        .slide {
+            margin-left: 10px;
+            font-size: 17px;
+        }
+        .down-head {
+            margin-left: -15px;
+        }
+        .img1 img {
+            width: 90%;
+        }
+        .img2 img {
+            width: 1000%;
+        }
+        .img4 img {
+            width: 40%;
+        }
+        .img4 h5 {
+            font-size: 12px;
+        }
+        .img5 img {
+            width: 250%;
+        }
+        .img7 img {
+            width: 350%;
+        }
+    }
+    @media (max-width: 330px) {
+        .slide {
+            margin-left: 10px;
+            font-size: 17px;
+        }
+        .down-head {
+            margin-left: -15px;
+        }
+        .img2 img {
+            width: 1500%;
+        }
+        .img4 img {
+            width: 40%;
+        }
+        .img4 h5 {
+            font-size: 20px;
+        }
+        .img5 img {
+            width: 250%;
+        }
+        .img7 img {
+            width: 400%;
         }
     }
     @media (max-width: 320px){
