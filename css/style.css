@@ -2021,7 +2021,7 @@ p.zak-head:hover {
             width: 90%;
         }
         .img2 img {
-            width: 1000%;
+            width: 700%;
         }
         .img4 img {
             width: 40%;
@@ -2030,10 +2030,13 @@ p.zak-head:hover {
             font-size: 12px;
         }
         .img5 img {
-            width: 250%;
+            width: 230%;
         }
         .img7 img {
-            width: 350%;
+            width: 300%;
+        }
+        .img9 img {
+            width: 90%;
         }
     }
     @media (max-width: 330px) {
